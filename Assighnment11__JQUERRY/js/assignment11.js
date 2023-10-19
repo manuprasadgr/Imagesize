@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   //percentage (width & height)
-  
+   
       $("#width-percent-input, #height-percent-input").change(function(){
           var id = $(this).attr("id");
           var value = $(this).val();

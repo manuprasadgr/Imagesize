@@ -2,7 +2,7 @@ function Widthpercentage() {
    var widthPercentages =  document.getElementById("width-percent-input").value + "%";
    document.getElementById("image").style.width = widthPercentages;
  }
-
+ 
  function heightPercentage() {
     var heightPercentage= document.getElementById("height-percent-input").value + "%";
    document.getElementById("image").style.height = heightPercentage;
